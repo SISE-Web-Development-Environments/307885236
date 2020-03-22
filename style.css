@@ -33,7 +33,14 @@ body{
 	background-size: cover;
 	background-image: url("backr.jpg");
 }
-
+ul.aboutMe{
+	align: center;
+	font-family: "Segoe UI", Calibri, sans-serif;
+	color: 	#585858;
+	font-size: 15px;
+	text-align: center;
+	font-style: normal;
+}
 div{
 	font-family: "Segoe UI black", Calibri, sans-serif;
 	color: 	#ECCED0;
@@ -96,4 +103,10 @@ table{
 	text-align: center;
 	border: 10px #585858;
 	background-color: #ECCED0;
+}
+h5{
+	align-content: center;
+	alignment: center;
+	font-family: "Segoe UI", Calibri, sans-serif;
+	font-size: 10px;
 }
