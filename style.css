@@ -6,6 +6,7 @@
 	background: #ECCED0;
 	box-shadow: 2px 2px 2px #585858, 0 0 25px #585858, 0 0 25px #585858;
 }
+
 ul{
 	overflow:hidden;
 	align-content: center;
@@ -57,13 +58,6 @@ form.section{
 	font-size: 15px;
 	text-align: center;
 }
-textarea{
-	font-family: "Segoe UI", Calibri, sans-serif;
-	color: 	#585858;
-	font-size: 15px;
-	text-align: left;
-	font-weight: normal;
-}
 p{
 	font-family: "Segoe UI", Calibri, sans-serif;
 	color: 	#585858;
@@ -79,17 +73,15 @@ a:visited{
 }
 button{
 	background-color: #ECCED0;
-	text-shadow: 2px 2px 10px #585858, 0 0 25px #585858, 0 0 30px #585858;
-	color: #ECCED0;
+
 	font-family: "Segoe UI black", Calibri, sans-serif;
 	padding: 8px 26px;
 	text-align: center;
 	text-decoration: none;
 	font-size: 14px;
-}
-hr{
-	background-color: #585858;
-	padding: 0 10px;
+	color: 	#ECCED0;
+	font-style: italic;
+	text-shadow: 2px 2px 2px #585858, 0 0 25px #585858, 0 0 25px #585858;
 }
 #center {
 	margin: 0 auto;
@@ -104,9 +96,12 @@ table{
 	border: 10px #585858;
 	background-color: #ECCED0;
 }
-h5{
-	align-content: center;
-	alignment: center;
-	font-family: "Segoe UI", Calibri, sans-serif;
-	font-size: 10px;
+div.form-popUp{
+	width: 316px;
+}
+label{
+	color: #ECCED0;
+}
+textarea.select{
+	color: blue;
 }
