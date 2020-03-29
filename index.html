@@ -271,7 +271,7 @@
     </hr>
     <center>
         <div class="form-popUp">
-            <form action="mailto:hillapet@post.bgu.ac.il" method="post" enctype="text/plain">
+            <form action="mailto:hillapet@post.bgu.ac.il" method="get" enctype="text/plain">
                 <p>
                     <label><strong>First Name</strong>
                         <input name="First Name" type="text" id="firstName" placeholder="First Name" autocomplete="on"
@@ -292,7 +292,7 @@
                 <p>
                     <label><strong>Message:</strong></label>
                     <label>
-                        <textarea name="Message" id="emojiTextArea" rows="5" cols="36" content="text"></textarea>
+                        <textarea name="body" id="emojiTextArea" rows="5" cols="36" content="text"></textarea>
                     </label>
                 </p>
                 <p>
@@ -337,5 +337,11 @@
         pickerPosition: 'right'
     })
 </script>
+<script type="text/javascript">
+    function add(str){
+        document.mailto.body.value +=str;
+    }
+</script>
+<script type="text/javascript"></script>
 </body>
 </html>
